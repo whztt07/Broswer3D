@@ -26,3 +26,19 @@
 *.exe
 *.out
 *.app
+
+#msvc projects
+*.sdf
+*.user
+*.filters
+*.suo
+*.opensdf
+*.vcxproj.user
+#Qt temp
+GeneratedFiles
+
+Win32/temp
+Win32/Debug
+Win32/Release
+!Win32/Release/register.bat
+!Win32/Release/unregister.bat
